@@ -1,0 +1,133 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ede0d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: border-box;
+}
+.container {
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8e6d4;
+    box-shadow: 0 4px 8px rgb(106, 4, 15,0.1);;
+    border-radius: 8px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 40px;
+    color: #461220;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    padding: 0px;
+}
+input {
+    color: #461220;
+    padding: 10px;
+    width: 85%;
+    height: 30px;
+    border: 1px solid #582f0e;
+    background-color: #ddb892;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    font-size: large;
+}
+input::placeholder{
+    color: #582f0e;
+}
+input:focus{
+    outline: none;
+}
+input:focus:not(:placeholder-shown){
+    background-color: #d1baa2;
+}
+button {
+    background-color: #7f5539;
+    border: 1px solid #582f0e;
+    color:#ffe6a7;
+    cursor: pointer;
+    margin: none;
+    height: 52px;
+    width: 15%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+button:hover {
+    background-color: #582f0e;
+}
+.word-div{
+    text-align: left;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#resultContainer {
+    margin-top: 20px;
+    text-align: left;
+    padding:10px 20px;
+}
+h4{
+    padding-left:10px;
+}
+
+p{
+    padding-left: 20px;;
+}
+.syn-ant-div p{
+    padding-left:10px;
+}
+.meanings-div {
+    margin-bottom: 15px;
+}
+
+.part-of-speech {
+    font-weight: bold;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+  
+.loading span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 3px;
+    background-color: #461220;
+    border-radius: 50%;
+    animation: bounce 0.6s infinite alternate;
+}
+  
+.loading span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+  
+.loading span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+  
+@keyframes bounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+}
+  
