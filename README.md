@@ -46,15 +46,4 @@ This application integrates with the DictionaryAPI using the following API endpo
 
 Replace `<word>` with the word you want to look up.
 
-## Contributing
-
-This project welcomes contributions! Feel free to fork the repository, make changes, and submit pull requests. 
-
-## License
-
-This project is licensed under [Specify the license used, e.g., MIT License]. See the `LICENSE` file for details.
-
-## Disclaimer
-
-This application is for educational purposes only and may not always provide the most comprehensive or accurate definitions. It is recommended to consult additional resources like dictionaries or thesauruses for more in-depth information.
 
